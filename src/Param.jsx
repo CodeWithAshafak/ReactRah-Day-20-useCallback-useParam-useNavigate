@@ -2,6 +2,9 @@ import React from 'react'
 import { useNavigate, useParams } from 'react-router-dom'
 
 
+
+
+
 const Param = () => {
   const navigate = useNavigate()
   const {name} = useParams()
